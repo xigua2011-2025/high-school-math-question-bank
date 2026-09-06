@@ -1,0 +1,8 @@
+{
+  "name": "高中数学题库",
+  "repository": "xigua2011-2025/high-school-math-question-bank",
+  "edition": "人教B版",
+  "grade": "高一",
+  "description": "高中数学原始题库索引。GitHub保存题库源数据，Notion保存学习与练习记录。",
+  "questions": []
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "High School Math Question",
+  "type": "object",
+  "required": ["question_id", "subject", "edition", "grade", "chapter", "question"],
+  "properties": {
+    "question_id": {"type": "string"},
+    "subject": {"const": "数学"},
+    "edition": {"type": "string"},
+    "grade": {"type": "string"},
+    "chapter": {"type": "string"},
+    "section": {"type": "string"},
+    "source": {"type": "string"},
+    "question_type": {"type": "string"},
+    "difficulty": {"type": "string"},
+    "question": {"type": "string"},
+    "options": {"type": "array", "items": {"type": "string"}},
+    "answer": {"type": "string"},
+    "solution": {"type": "string"},
+    "knowledge_points": {"type": "array", "items": {"type": "string"}},
+    "models": {"type": "array", "items": {"type": "string"}},
+    "asset_paths": {"type": "array", "items": {"type": "string"}}
+  }
+}
